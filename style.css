@@ -1,0 +1,32 @@
+body {
+	background-color: grey;
+}
+.menu {
+	background: #020F00;
+	width: 200px;
+	color: white;
+	padding: 20px 0;
+}
+.menu > li {
+	border-bottom: 1px solid #45AE04;
+	padding: 20px 0 20px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	user-select: none;
+}
+.menu > li:last-child {
+	border-bottom: none;
+	}
+.menu > li ul {
+	padding: 10px 0 10px 20px;
+	font-size: 18px;
+	display: none;
+	list-style: none;
+}
+.menu div.active + ul {
+	display: block;
+}
+span{
+	padding-left: 60px;
+	font-size: 12px;
+}
